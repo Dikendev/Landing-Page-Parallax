@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 1.2cm;
+    color: rgb(59, 57, 68);   
+}
+
+.pim1, .pim2, .pim3, .pim4 {
+    position: relative;
+    opacity: 0.88;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pim1 {
+    background-image: url(img/pexels-marcela-alessandra-1885213.jpg);
+    min-height: 100%;
+}
+
+.pim2 {
+    background-image: url(img/pexels-wendy-wei-10866259.jpg);
+    min-height: 400px;
+}
+
+.pim3 {
+    background-image: url(img/pexels-pixabay-164737.jpg);
+    min-height: 400px;
+}
+
+.pim4 {
+    background-image: url(img/pexels-pierre-blaché-2351425.jpg);
+    min-height: 100%;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: rgba(240, 241, 171, 0.575);
+    color: rgb(71, 32, 32); 
+}
+
+.section-dark {
+    background-color: rgb(26, 21, 21);
+    color: rgb(218, 169, 137);
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(26, 21, 21);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: rgb(26, 21, 21);
+    color: azure;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.ptext .border .trans {
+    background-color: transparent;
+}
+
+@media(max-width: 580px) {
+    .pim1, .pim2, .pim3, .pim4 {
+        background-attachment: scroll;
+    }
+}
